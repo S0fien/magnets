@@ -1,0 +1,19 @@
+@import "../styles/fonts";
+@import "../styles/reset";
+@import "../styles/variables";
+
+@import "~webext-base-css/webext-base.css";
+
+html {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  background: black;
+}
+
+body {
+  color: $black;
+  background-color: $greyWhite;
+}
